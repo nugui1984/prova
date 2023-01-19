@@ -14,11 +14,11 @@ public class ex1 {
         //el 0 es Pepe y 1 es maria--> la i siempre va delante de la j
         notesalumnes[0][0] = 6;
         notesalumnes[0][1] = 8;
-        notesalumnes[0][2] = 10;
+        notesalumnes[0][2] = 8;
         notesalumnes[0][3] = 4;
-        notesalumnes[1][0] = 7;
-        notesalumnes[1][1] = 6;
-        notesalumnes[1][2] = 9;
+        notesalumnes[1][0] = 4;
+        notesalumnes[1][1] = 3;
+        notesalumnes[1][2] = 4;
         notesalumnes[1][3] = 5;
 
         for (int i = 0; i < notesalumnes.length; i++) {
@@ -33,6 +33,7 @@ public class ex1 {
             }
 
         }
+        System.out.print("Ara farem canvis en aquest arxiu");
 
     }
     
